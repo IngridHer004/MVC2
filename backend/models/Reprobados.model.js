@@ -1,13 +1,13 @@
 import {Schema,model} from 'mongoose'
 
-export const A = new Schema({
+export const reprob = new Schema({
     nombre:{
         type:String
     },
-    apellidoP:{
+    apepat:{
         type:String
     },
-    apellidoM:{
+    apemat:{
         type:String
     },
     promedio:{
@@ -15,4 +15,4 @@ export const A = new Schema({
     }
 })
 
-export const modelo = new model('Reprobados',A)
+export const modelo = new model('Reprobados',reprob)

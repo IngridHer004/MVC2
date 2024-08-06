@@ -1,6 +1,6 @@
 
 import {model} from 'mongoose'
-import {A} from "../models/Reprobados.model.js"
+import {reprob} from "../models/Reprobados.model.js"
 
 
-export const modelo = new model('Aprobados',A)
+export const modelo1 = new model('Aprobados',reprob)

@@ -1,12 +1,12 @@
-import {modelo} from '../models/Aprobado.model.js'
+import {modelo1} from '../models/Aprobado.model.js'
 
-export const test = () => {
+export const test1 = () => {
     console.log("llamando la funcion desde el servidor")
 }
 
-modelo.create({
-    nombre:"Brandon",
-    apellidoP:"Martinez",
-    apellidoM:"Castillo",
-    promedio:"10"
+modelo1.create({
+    nombre:"Diego Josue",
+    apepat:"Palos",
+    apemat:"Padilla",
+    promedio:"9.6"
 })

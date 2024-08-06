@@ -4,7 +4,7 @@ export const test3 = () => {
     console.log("llamando la funcion desde el servidor")
 }
 modelo3.create({
-    Alumno:"Brandon",
+    Alumno:"Karim",
     Estatus:"Reprobado"
 
 })

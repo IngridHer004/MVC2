@@ -1,6 +1,6 @@
 import { Schema,model } from "mongoose";
 
-const Remediales2 = new Schema({
+const remediales = new Schema({
     Alumno:{
         type:String
     },
@@ -9,4 +9,4 @@ const Remediales2 = new Schema({
     }
 })
 
-export const modelo3 = new model('Remediales',Remediales2)
+export const modelo3 = new model('Remediales',remediales)

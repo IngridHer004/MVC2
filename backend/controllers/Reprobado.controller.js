@@ -5,8 +5,8 @@ export const test2 = () => {
 }
 
 modelo.create({
-    nombre:"Brandon",
-    apellidoP:"Martinez",
-    apellidoM:"Castillo",
-    promedio:"5"
+    nombre:"Carlos Daniel",
+    apepat:"Gurierrez",
+    apemat:"Novoa",
+    promedio:"6.7"
 })
